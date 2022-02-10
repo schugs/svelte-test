@@ -5,3 +5,6 @@ services:
     buildCommand: npm install && npm run build
     startCommand: node build/index.js
     plan: free
+databases:
+  - name: prod
+    plan: free
